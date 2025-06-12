@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray, Int32
-from ros2_audio_pub.msg import AudioWithDOA
+from AudioWithDOA.msg import AudioWithDOA
 
 import subprocess
 import numpy as np
